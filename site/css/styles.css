@@ -73,6 +73,7 @@
 	}
 	.top ul.nav {
 		background: #fff url(img/nav_bg.gif) repeat-x bottom left;
+		background-color: transparent;
 		opacity: 0.85;
 		margin:0;
 		padding-left: 10px;

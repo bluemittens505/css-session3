@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Menu Highlights</title>
+    <style>
+        * { padding:0; margin:0; }
+        body {
+            margin: 20px;
+            font-family: sans-serif;
+            font-size: 100%;
+        }
+        .menu-list {
+            background: url(img/bg.gif) no-repeat;
+            width: 100%;
+            padding: 10px 0;
+            float: left;
+        }
+        @media screen and (min-width: 304px) {
+            .menu-list {
+                background: #eee;
+                color: #000 !important;
+            }
+        }
+        @media screen and (min-width: 620px) {
+            .menu-list {
+                background: #333;
+                color: #fff !important;
+            }
+        }
+        
+        
+        
+        
+        .menu-list dl {
+            margin: 10px 20px;
+            clear: both;
+            float:left;
+            width: 260px;
+        }
+        .menu-list dt {
+            font-size: 1.2em;
+            letter-spacing: 1px;
+            color: #627081;
+            float:right;
+            width: 162px;
+        }
+        .menu-list dd {
+            font-size:0.9em;
+            line-height:1.6;
+            color:#666;
+            padding:0;
+            
+        }
+        
+        .menu-list dd + dd {
+            margin-left: 96px;
+        }
+        .menu-list img {
+            float:left;
+            margin-right: 8px;
+            padding: 4px;
+            background: #fff;
+            border: 1px solid #d9e0e6;
+            border-bottom-color: #c8cdd9;
+            border-right-color: #c8cdd9;
+            box-shadow: 2px 2px 3px #999;
+        }
+        
+/*
+        .menu-list .alt dt {
+            float:left;
+        }
+        .menu-list .alt dd + dd {
+            margin-right: 96px;
+            margin-left: 0;
+        }
+        .menu-list .alt img {
+            float: right;
+            margin: 0 0 0 8px;
+        }
+*/
+        .menu-list dl:nth-child(even) dt {
+            float:left;
+        }
+        .menu-list dl:nth-child(even) img {
+            float: right;
+            margin: 0 0 0 8px;
+        }
+         .menu-list dl:nth-child(even) dd + dd {
+            margin-right: 96px;
+            margin-left: 0;
+        }
+    </style>
+    
+</head>
+
+<body>
+<div class="menu-list">
+	<dl>
+		<dt>Spicy Tuna Roll</dt>
+		<dd><img src="img/1.jpg" width="80" height="80" alt="Tuna Roll"></dd>
+		<dd>Our specialty - spicy tuna rolls. Enjoy a special treat for two. Orders also available for three or more. </dd>
+	</dl>
+	<dl class="alt">
+		<dt>Sushi for Two</dt>
+		<dd><img src="img/2.jpg" width="80" height="80" alt="Sushi for Two"></dd>
+		<dd>Enjoy a special treat for two. Orders also available for three or more.</dd>
+	</dl>
+	<dl>
+		<dt>Omikase</dt>
+		<dd><img src="img/3.jpg" width="80" height="80" alt="Omikase"></dd>
+		<dd>Allow our executive chef to prepare a special selection of the day's top choices.</dd>
+	</dl>
+</div>
+</body>
+</html>

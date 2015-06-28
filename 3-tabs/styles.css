@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 100%;
+}
+    ul#nav {
+        background: #ffcd2d url(nav_bg.gif) repeat-x bottom left;
+        margin:0;
+        padding: 10px 0 0 46px;
+        list-style: none;
+        float: left;
+        width: 100%;
+    }
+    ul#nav li {
+        float: left;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+        border: 1px solid #9b8748;
+        padding: 4px 8px;
+        float: left;
+        border-bottom: none;
+        margin: 0 6px 0 0;
+        background: #f9eaa9 url(off_bg.gif) repeat-x; 
+    }
+    
+    a:hover, 
+    #p-cuisines #t-cuisines a,
+    #p-chefs #t-chefs a {
+        background-image: url(on_bg.gif);
+        background-color: #fff;
+        padding-bottom: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+

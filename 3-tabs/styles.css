@@ -29,7 +29,7 @@ body {
     a:hover, 
     #p-cuisines #t-cuisines a,
     #p-chefs #t-chefs a {
-        background-image: url(on_bg.gif);
+          background-image: url(on_bg.gif);
         background-color: #fff;
         padding-bottom: 5px;
     }

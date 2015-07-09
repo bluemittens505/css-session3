@@ -1,0 +1,50 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Lucida Grande", sans-serif;
+            font-size: large;
+        }
+        #nav {
+            background: #ffcb2d url(nav_bg.gif) repeat-x bottom left;
+            margin: 0;
+            padding: 10px 0 0 46px;
+            list-style: none;
+            float: left;
+            width: 100%;
+        }
+        li {
+            margin: 0;
+            padding: 0;
+            float: left;
+            font-size: 85%;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 4px 8px;
+            border: 1px solid #9b8748;
+            margin: 0 6px 0 0;
+            border-bottom: none;
+            float: left;
+            background: #f9eaa9 url(off_bg.gif) repeat-x top left;
+        }
+        a:hover, 
+        #p-cuisines #t-cuisines a,
+        #p-chefs #t-chefs a {
+            background: #fff url(on_bg.gif) repeat-x top left;
+            border-color: #727377;
+            padding-bottom: 5px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
